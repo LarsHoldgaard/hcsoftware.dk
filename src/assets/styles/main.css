@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNova/2B61CF_7_0.eot');
+  src: url('../fonts/ProximaNova/2B61CF_7_0.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova/2B61CF_7_0.woff') format('woff'), url('../fonts/ProximaNova/2B61CF_7_0.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNova/2B61CF_6_0.eot');
+  src: url('../fonts/ProximaNova/2B61CF_6_0.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova/2B61CF_6_0.otf') format('truetype'), url('../fonts/ProximaNova/2B61CF_6_0.woff') format('woff'), url('../fonts/ProximaNova/2B61CF_6_0.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/ProximaNova/2B61CF_8_0.eot');
+  src: url('../fonts/ProximaNova/2B61CF_8_0.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova/2B61CF_8_0.otf') format('truetype'), url('../fonts/ProximaNova/2B61CF_8_0.woff') format('woff'), url('../fonts/ProximaNova/2B61CF_8_0.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+  font-size: 14pt;
+}
+
+p, li {
+  font-size:14pt;
+}
+
+.navbar {
+  background-color:#2E8EDB;
+  height: 40px;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.navbar-fixed-top {
+  top: 0;
+  left:0;
+  position: absolute;
+  border:none;
+}
+
+.navbar-inverse .logo {
+  font-size:18pt;
+  font-weight:bold;
+}
+
+ul.nav {
+  background-color:#2E8EDB;
+}
+
+.navbar-inverse .navbar-brand {
+  color:white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color:white;
+  font-size:15pt;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color:#dadada;
+}
+
+.navbar-brand {
+  margin-top: 0px;
+}
+
+.navbar-fixed a {
+  color:white;
+  font-size:15pt;
+  font-weight:bold;
+}
+
+
+.front-banner {
+  background-color:#2E8EDB;
+  padding:15px;
+  min-height:100px;
+  width:100%;
+  text-align: center;
+  margin-top: 40px;
+  padding-top:40px;
+  padding-bottom:40px;
+  color:white;
+
+}
+
+.front-banner h1, .front-banner h5 {
+  color:white;
+}
+
+.front-banner h5 { 
+  color: #dadada;
+  font-size:14pt;
+}
+
+.content_pic {
+  max-width:200px;
+  border-radius: 25%;
+
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1);
+}
+
+.bggray {
+  background-color:#f4f4f4;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  margin-top:55px;
+  margin-bottom:55px;
+}
+
+.map-frame {
+  height: 300px; 
+  width: 100%;
+  padding-top:27px;
+}
+
+#map-canvas {
+  width: 100%; height: 100%;
+}
+
+.bgcontent {
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.footer {
+	background:#f0f0f0;
+	padding:50px;
+	width:100%;
+}
+
+.footer-nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.footer-nav ul li {
+	display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
