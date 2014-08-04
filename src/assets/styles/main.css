@@ -136,9 +136,13 @@ ul.nav {
 	width:100%;
 }
 
+.footer-nav {
+  text-align: center;
+}
+
 .footer-nav ul {
 	list-style-type: none;
-	text-align: center;
+	
 }
 
 .footer-nav ul li {
